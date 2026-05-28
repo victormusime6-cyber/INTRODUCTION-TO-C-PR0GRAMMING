@@ -23,7 +23,7 @@ int main(){
 
     // This function enables automatic change of name size input in char above.
     fgets(name, sizeof(name), stdin);
-    
+
     /*This function solves the issue of space created during the re_alignment of 
     printing the name variable.*/
     name[strlen(name)-1] = '\0';
